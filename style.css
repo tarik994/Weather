@@ -1,0 +1,41 @@
+body{
+    background-image: url('https://source.unsplash.com/1600x900/?nature,water');
+    
+}
+    
+
+.card{
+    border: 1px solid gray;
+    width: 400px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: white;
+    opacity: .6;
+    margin:auto;
+}
+
+.card:hover{
+    opacity: .8;
+}
+
+.search-button{
+    cursor: pointer;
+    width: 40px;
+    background-color: white;
+    border: none;
+}
+
+.search-button:hover{
+    opacity: 0.5;
+}
+
+.search-input{
+    width: 200px;
+    margin-left: 15%;
+    height: 25px;
+    text-align: center;
+    border-radius: 30px;
+    outline: none;
+    font-size: 1.5em;
+}
